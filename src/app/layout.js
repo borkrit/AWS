@@ -29,10 +29,7 @@ export default function RootLayout({ children }) {
       />
     </head>
     <body className={inter.className}>
-
     {children}
-    <!-- Google tag (gtag.js) -->
-
     </body>
     </html>
   );
