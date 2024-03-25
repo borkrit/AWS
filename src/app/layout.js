@@ -21,6 +21,12 @@ export default function RootLayout({ children }) {
 
         gtag('config', 'G-1WK8W0653J');
       </script>
+      <title>default</title>
+      <meta
+          name="description"
+          content="default"
+          key="desc"
+      />
     </head>
     <body className={inter.className}>
 

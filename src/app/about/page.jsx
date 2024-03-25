@@ -1,5 +1,16 @@
+import Head from "next/head";
+
 export default function  AboutPage(){
     return(
-        <><h1>about</h1></>
+        <>
+            <Head>
+                    <title>about</title>
+                    <meta
+                        name="description"
+                        content="Super about with"
+                        key="desc"
+                    />
+
+            </Head> <h1>about</h1></>
     )
 }
