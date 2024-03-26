@@ -12,15 +12,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <head>
-
-      <title>default</title>
-      <meta
-          name="description"
-          content="default"
-          key="desc"
-      />
-    </head>
     <body className={inter.className}>
       <GoogleAnalitic ga_id={'G-1WK8W0653J'} />
     {children}
