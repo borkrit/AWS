@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-export default function _notFound () {
+export default function notFound () {
     return(
         <section className={styles.notFound}>
                 <div className={styles.notFound__img}>
