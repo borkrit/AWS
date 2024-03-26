@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Suspense } from "react";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +14,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
     <head>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-1WK8W0653J"></Script>
+      <Script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
 
+        gtag('config', 'G-1WK8W0653J');
+      </Script>
       <title>default</title>
       <meta
           name="description"
