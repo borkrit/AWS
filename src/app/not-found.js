@@ -1,6 +1,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+export const metadata = {
+    title: "Not found",
+    description: "page 404 ",
+};
 export default function notFound () {
     return(
         <section className={styles.notFound}>
