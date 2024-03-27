@@ -1,19 +1,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Head from "next/head";
 
 export default function Home() {
   return (
       <>
-      <Head>
-        <title>main</title>
-        <meta
-            name="description"
-            content="main"
-            key="desc"
-        />
 
-      </Head>
     <main className={styles.main}>
       <div className={styles.description}>
         <p>

@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import GoogleAnalitic from "@/app/googleAnalitic";
 import Link from "next/link";
-import Wrapper from "@/components/HOC";
+import Wrapper from "@/components/Wrapper";
 
 const inter = Inter({ subsets: ["latin"] });
 
